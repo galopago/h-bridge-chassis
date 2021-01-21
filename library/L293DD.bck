@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L293DD
+D Quadruple Half-H Drivers
+K Half-H Driver Motor
+F https://www.st.com/resource/en/datasheet/l293d.pdf
+$ENDCMP
+#
+#End Doc Library
