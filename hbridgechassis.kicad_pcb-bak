@@ -130,7 +130,7 @@
   )
 
   (module Diode_SMD:D_SMA (layer F.Cu) (tedit 586432E5) (tstamp 600A3E71)
-    (at 126.5174 65.786 180)
+    (at 128.905 69.0118 180)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (path /60113E51)

@@ -239,8 +239,4 @@ Text Notes 7650 3050 0    50   ~ 0
 MOTOR 1
 Text Notes 7650 3650 0    50   ~ 0
 MOTOR 2
-Text Notes 3700 3500 0    50   ~ 0
-Jumper\nSoldadura
-Text Notes 3700 4100 0    50   ~ 0
-Jumper\nSoldadura
 $EndSCHEMATC
