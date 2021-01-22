@@ -20,6 +20,8 @@ El proyecto fue desarrollado en Kicad Version 5.1
 
 * El directorio info contiene informacion adicional sobre la tarjeta en otros formatos como PDF e imagenes.
 
+* El directorio library contiene simbolos esquematicos adicionales que no vienen en la instalacion por defecto de KiCad
+
 ## Licencia
 
 ![CC](https://i.creativecommons.org/l/by/4.0/88x31.png)
