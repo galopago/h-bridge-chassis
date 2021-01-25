@@ -27,42 +27,40 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Female J1
 U 1 1 6009FC05
-P 1700 3500
-F 0 "J1" H 1592 3685 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 1592 3594 50  0000 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 1700 3500 50  0001 C CNN
-F 3 "~" H 1700 3500 50  0001 C CNN
-	1    1700 3500
+P 750 3500
+F 0 "J1" H 642 3685 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 642 3594 50  0000 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 750 3500 50  0001 C CNN
+F 3 "~" H 750 3500 50  0001 C CNN
+	1    750  3500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Female J2
 U 1 1 600A0524
-P 7600 3150
-F 0 "J2" H 7628 3126 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 7628 3035 50  0000 L CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 7600 3150 50  0001 C CNN
-F 3 "~" H 7600 3150 50  0001 C CNN
-	1    7600 3150
+P 6600 3150
+F 0 "J2" H 6628 3126 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 6628 3035 50  0000 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 6600 3150 50  0001 C CNN
+F 3 "~" H 6600 3150 50  0001 C CNN
+	1    6600 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Female J3
 U 1 1 600A0B1B
-P 7600 3750
-F 0 "J3" H 7628 3726 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 7628 3635 50  0000 L CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 7600 3750 50  0001 C CNN
-F 3 "~" H 7600 3750 50  0001 C CNN
-	1    7600 3750
+P 6600 3750
+F 0 "J3" H 6628 3726 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 6628 3635 50  0000 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 6600 3750 50  0001 C CNN
+F 3 "~" H 6600 3750 50  0001 C CNN
+	1    6600 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 3600 2400 3600
+	950  3600 1300 3600
 Wire Wire Line
-	2400 3600 2400 4650
-Wire Wire Line
-	2400 4650 2850 4650
+	1300 3600 1300 4650
 Wire Wire Line
 	5050 4650 5050 4500
 Wire Wire Line
@@ -101,9 +99,9 @@ Wire Wire Line
 	5850 4650 5750 4650
 Connection ~ 5750 4650
 Wire Wire Line
-	1900 3500 2350 3500
+	950  3500 1300 3500
 Wire Wire Line
-	2350 3500 2350 2550
+	1300 3500 1300 2550
 Wire Wire Line
 	5350 2550 5350 2700
 Wire Wire Line
@@ -111,30 +109,6 @@ Wire Wire Line
 Wire Wire Line
 	5550 2550 5350 2550
 Connection ~ 5350 2550
-Wire Wire Line
-	7400 3150 6750 3150
-Wire Wire Line
-	6750 3150 6750 3100
-Wire Wire Line
-	6750 3100 6050 3100
-Wire Wire Line
-	7400 3250 6750 3250
-Wire Wire Line
-	6750 3250 6750 3300
-Wire Wire Line
-	6750 3300 6050 3300
-Wire Wire Line
-	7400 3750 6750 3750
-Wire Wire Line
-	6750 3750 6750 3700
-Wire Wire Line
-	6750 3700 6050 3700
-Wire Wire Line
-	7400 3850 6750 3850
-Wire Wire Line
-	6750 3850 6750 3900
-Wire Wire Line
-	6750 3900 6050 3900
 $Comp
 L Connector:Conn_01x07_Female J4
 U 1 1 600B90AD
@@ -146,41 +120,11 @@ F 3 "~" H 3150 2800 50  0001 C CNN
 	1    3150 2800
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:Conn_01x02_Female J5
-U 1 1 600C3030
-P 4150 3400
-F 0 "J5" H 4042 3585 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 4150 3200 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4150 3400 50  0001 C CNN
-F 3 "~" H 4150 3400 50  0001 C CNN
-	1    4150 3400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J6
-U 1 1 600C3816
-P 4150 4000
-F 0 "J6" H 4042 4185 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 4150 3800 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4150 4000 50  0001 C CNN
-F 3 "~" H 4150 4000 50  0001 C CNN
-	1    4150 4000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 3500 4350 3500
-Wire Wire Line
-	4350 3400 4500 3400
 Wire Wire Line
 	4500 3400 4500 2550
 Connection ~ 4500 2550
 Wire Wire Line
 	4500 2550 4600 2550
-Wire Wire Line
-	4850 4100 4350 4100
-Wire Wire Line
-	4350 4000 4600 4000
 Wire Wire Line
 	4600 4000 4600 2550
 Connection ~ 4600 2550
@@ -207,36 +151,180 @@ Wire Wire Line
 	4850 3900 3350 3900
 Wire Wire Line
 	3350 3900 3350 3000
-Wire Wire Line
-	2600 4300 2950 4300
-Wire Wire Line
-	2950 4300 2950 3000
 $Comp
 L Diode:MRA4007T3G D1
 U 1 1 60113E51
-P 2600 4000
-F 0 "D1" V 2646 3921 50  0000 R CNN
-F 1 "MRA4007T3G" V 2555 3921 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 2600 3825 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 2600 4000 50  0001 C CNN
-	1    2600 4000
+P 2500 3300
+F 0 "D1" V 2546 3221 50  0000 R CNN
+F 1 "MRA4007T3G" V 2455 3221 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA" H 2500 3125 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 2500 3300 50  0001 C CNN
+	1    2500 3300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2350 2550 2600 2550
-Wire Wire Line
-	2600 4150 2600 4300
-Wire Wire Line
-	2600 3850 2600 2550
-Connection ~ 2600 2550
-Wire Wire Line
-	2600 2550 4500 2550
-Text Notes 1650 3200 0    50   ~ 0
-6V \n4x1.5V
 Text Notes 3600 2800 0    50   ~ 0
 MODULO RF\nRX480E
-Text Notes 7650 3050 0    50   ~ 0
+Text Notes 6550 3000 0    50   ~ 0
 MOTOR 1
-Text Notes 7650 3650 0    50   ~ 0
+Text Notes 6550 3600 0    50   ~ 0
 MOTOR 2
+$Comp
+L Regulator_Linear:L78L05_SOT89 U2
+U 1 1 600E16D8
+P 1800 3250
+F 0 "U2" H 1800 3492 50  0000 C CNN
+F 1 "L78L05_SOT89" H 1800 3401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 1800 3450 50  0001 C CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 1800 3200 50  0001 C CNN
+	1    1800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4650 1500 4650
+$Comp
+L Device:C C1
+U 1 1 60125B26
+P 1500 3750
+F 0 "C1" H 1615 3796 50  0000 L CNN
+F 1 "C" H 1615 3705 50  0000 L CNN
+F 2 "" H 1538 3600 50  0001 C CNN
+F 3 "~" H 1500 3750 50  0001 C CNN
+	1    1500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 601276C7
+P 2100 3750
+F 0 "C2" H 2215 3796 50  0000 L CNN
+F 1 "C" H 2215 3705 50  0000 L CNN
+F 2 "" H 2138 3600 50  0001 C CNN
+F 3 "~" H 2100 3750 50  0001 C CNN
+	1    2100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3550 1800 4650
+Connection ~ 1800 4650
+Wire Wire Line
+	1800 4650 2100 4650
+Wire Wire Line
+	1500 3900 1500 4650
+Connection ~ 1500 4650
+Wire Wire Line
+	1500 4650 1800 4650
+Wire Wire Line
+	2100 3900 2100 4650
+Connection ~ 2100 4650
+Wire Wire Line
+	2100 4650 2850 4650
+Wire Wire Line
+	1500 3600 1500 3250
+Wire Wire Line
+	2100 3600 2100 3250
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 6014A9C6
+P 2200 2800
+F 0 "JP1" H 2200 2913 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 1750 2650 50  0000 C CNN
+F 2 "" H 2200 2800 50  0001 C CNN
+F 3 "~" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1300 2550 2200 2550
+Wire Wire Line
+	2200 2650 2200 2550
+Connection ~ 2200 2550
+Wire Wire Line
+	2200 2550 4500 2550
+Wire Wire Line
+	2000 2800 1500 2800
+Wire Wire Line
+	1500 2800 1500 3250
+Connection ~ 1500 3250
+Wire Wire Line
+	2350 3650 2500 3650
+Wire Wire Line
+	2950 3000 2950 3650
+Wire Wire Line
+	2500 3650 2500 3450
+Connection ~ 2500 3650
+Wire Wire Line
+	2500 3650 2950 3650
+Wire Wire Line
+	2400 2800 2500 2800
+Wire Wire Line
+	2500 2800 2500 3150
+Wire Wire Line
+	2100 3250 2350 3250
+Wire Wire Line
+	2350 3250 2350 3650
+Connection ~ 2100 3250
+Wire Wire Line
+	6400 3150 6250 3150
+Wire Wire Line
+	6250 3150 6250 3100
+Wire Wire Line
+	6250 3100 6050 3100
+Wire Wire Line
+	6400 3250 6250 3250
+Wire Wire Line
+	6250 3250 6250 3300
+Wire Wire Line
+	6250 3300 6050 3300
+Wire Wire Line
+	6400 3750 6250 3750
+Wire Wire Line
+	6250 3750 6250 3700
+Wire Wire Line
+	6250 3700 6050 3700
+Wire Wire Line
+	6400 3850 6250 3850
+Wire Wire Line
+	6250 3850 6250 3900
+Wire Wire Line
+	6250 3900 6050 3900
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 601CC15D
+P 4100 3400
+F 0 "JP?" H 4100 3605 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 4050 3200 50  0000 C CNN
+F 2 "" H 4100 3400 50  0001 C CNN
+F 3 "~" H 4100 3400 50  0001 C CNN
+	1    4100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 601CCD9F
+P 4100 4000
+F 0 "JP?" H 4100 4205 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 4050 3750 50  0000 C CNN
+F 2 "" H 4100 4000 50  0001 C CNN
+F 3 "~" H 4100 4000 50  0001 C CNN
+	1    4100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3400 4500 3400
+Wire Wire Line
+	3950 3400 3900 3400
+Wire Wire Line
+	3900 3400 3900 3500
+Wire Wire Line
+	3900 3500 4850 3500
+Wire Wire Line
+	4250 4000 4600 4000
+Wire Wire Line
+	3950 4000 3900 4000
+Wire Wire Line
+	3900 4000 3900 4100
+Wire Wire Line
+	3900 4100 4850 4100
+Text Notes 1850 2450 0    50   ~ 0
+JUMPER ALIMENTACION JP1\nMENOR o IGUAL A 6V SOLDAR 2-3\nMAYOR A 6V SOLDAR 1-2
 $EndSCHEMATC
