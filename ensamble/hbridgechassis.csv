@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+"0.33uF","C1","Capacitor_SMD:C_0805_2012Metric",""
+"0.1uF","C2","Capacitor_SMD:C_0805_2012Metric",""
+"MRA4007T3G","D1","Diode_SMD:D_SMA",""
+"3.5 mm screw terminal","J1,J2,J3","TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal",""
+"2.54 mm 01x07 Female socket","J4","Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical",""
+"SolderJumper_3_Open","JP1","Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels",""
+"SolderJumper_2_Open","JP2,JP3","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",""
+"L293DD","U1","Package_SO:SO-20_12.8x7.5mm_P1.27mm",""
+"L78L05_SOT89","U2","Package_TO_SOT_SMD:SOT-89-3",""

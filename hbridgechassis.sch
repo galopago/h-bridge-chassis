@@ -29,7 +29,7 @@ L Connector:Conn_01x02_Female J1
 U 1 1 6009FC05
 P 750 3500
 F 0 "J1" H 642 3685 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 642 3594 50  0000 C CNN
+F 1 "3.5 mm screw terminal" H 642 3594 50  0000 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 750 3500 50  0001 C CNN
 F 3 "~" H 750 3500 50  0001 C CNN
 	1    750  3500
@@ -40,7 +40,7 @@ L Connector:Conn_01x02_Female J2
 U 1 1 600A0524
 P 6600 3150
 F 0 "J2" H 6628 3126 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 6628 3035 50  0000 L CNN
+F 1 "3.5 mm screw terminal" H 6628 3035 50  0000 L CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 6600 3150 50  0001 C CNN
 F 3 "~" H 6600 3150 50  0001 C CNN
 	1    6600 3150
@@ -51,7 +51,7 @@ L Connector:Conn_01x02_Female J3
 U 1 1 600A0B1B
 P 6600 3750
 F 0 "J3" H 6628 3726 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 6628 3635 50  0000 L CNN
+F 1 "3.5 mm screw terminal" H 6628 3635 50  0000 L CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 6600 3750 50  0001 C CNN
 F 3 "~" H 6600 3750 50  0001 C CNN
 	1    6600 3750
@@ -114,7 +114,7 @@ L Connector:Conn_01x07_Female J4
 U 1 1 600B90AD
 P 3150 2800
 F 0 "J4" V 3315 2780 50  0000 C CNN
-F 1 "Conn_01x07_Female" V 3224 2780 50  0000 C CNN
+F 1 "2.54 mm 01x07 Female socket" V 3224 2780 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 3150 2800 50  0001 C CNN
 F 3 "~" H 3150 2800 50  0001 C CNN
 	1    3150 2800
@@ -165,9 +165,9 @@ $EndComp
 Text Notes 3600 2800 0    50   ~ 0
 MODULO RF\nRX480E
 Text Notes 6550 3000 0    50   ~ 0
-MOTOR 1
+MOTOR A
 Text Notes 6550 3600 0    50   ~ 0
-MOTOR 2
+MOTOR B
 $Comp
 L Regulator_Linear:L78L05_SOT89 U2
 U 1 1 600E16D8
@@ -186,7 +186,7 @@ L Device:C C1
 U 1 1 60125B26
 P 1500 3750
 F 0 "C1" H 1615 3796 50  0000 L CNN
-F 1 "C" H 1615 3705 50  0000 L CNN
+F 1 "0.33uF" H 1615 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1538 3600 50  0001 C CNN
 F 3 "~" H 1500 3750 50  0001 C CNN
 	1    1500 3750
@@ -197,7 +197,7 @@ L Device:C C2
 U 1 1 601276C7
 P 2100 3750
 F 0 "C2" H 2215 3796 50  0000 L CNN
-F 1 "C" H 2215 3705 50  0000 L CNN
+F 1 "0.1uF" H 2215 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2138 3600 50  0001 C CNN
 F 3 "~" H 2100 3750 50  0001 C CNN
 	1    2100 3750
