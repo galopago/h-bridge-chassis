@@ -114,7 +114,7 @@ L Connector:Conn_01x07_Female J4
 U 1 1 600B90AD
 P 3150 2800
 F 0 "J4" V 3315 2780 50  0000 C CNN
-F 1 "Conn_01x07_Female" V 3224 2780 50  0000 C CNN
+F 1 "2.54 mm 01x07 Female socket" V 3224 2780 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 3150 2800 50  0001 C CNN
 F 3 "~" H 3150 2800 50  0001 C CNN
 	1    3150 2800

@@ -1,4 +1,4 @@
-16928509531389390
+16922605784655884
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -38073,13 +38073,6 @@ ethernet 8p8c transformer magjack
 12
 11
 Connector_RJ
-RJ45_Wayconn_MJEA-880X1_Horizontal
-RJ45 8P8C Socket 90 degrees, https://wayconn.com/wp-content/themes/way/datasheet/MJEA-880X1XXX_RJ45_8P8C_PCB_FEMALE_RA.pdf
-RJ45 jack connector 8P8C
-0
-8
-8
-Connector_RJ
 RJ45_Wuerth_7499010121A_Horizontal
 10/100Base-TX RJ45 ethernet magnetic transformer connector horizontal https://katalog.we-online.de/pbs/datasheet/7499010121A.pdf
 RJ45 ethernet magnetic
@@ -51379,6 +51372,20 @@ Yellow 5381 Series LED
 0
 2
 2
+Logos-Caty-Kanal
+CATY-KANAL-Logo_47x21mm_Copper
+
+
+0
+0
+0
+Logos-Caty-Kanal
+CATY-KANAL-Logo_47x21mm_SilkScreen
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -66555,20 +66562,6 @@ Particle P1
 0
 75
 75
-RF_Module
-RAK811
-RAK811 LPWAN Module https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
-LoRa LoRaWAN RAK811
-0
-34
-34
-RF_Module
-RAK4200
-RAK4200 LPWAN Module https://downloads.rakwireless.com/LoRa/RAK4200/Hardware-Specification/RAK4200_Module_Specifications_V1.4.pdf
-LoRa LoRaWAN RAK4200
-0
-20
-20
 RF_Module
 RFDigital_RFD77101
 RFDigital RFD77101 Simblee
